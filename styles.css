@@ -1,0 +1,40 @@
+body {
+    background-color: beige;
+    padding:5px;
+    align-items:center;
+}
+
+#title {
+    width:100%;
+    height:25%;
+    text-align: center;
+    font:800 50px monospace; /* weight, size, family */
+    color:black;
+}
+
+#calculatorInterface {
+    width:80%;
+    height:500px;
+    background-color: darkgoldenrod;
+    margin-left:10%;
+    border-radius: 25px;
+    border-color:burlywood;
+    border-style:solid;
+    border-width: 10px;
+    padding:5px;
+}
+
+#mainBox {
+    border-width: 2px;
+    border-color:sandybrown;
+    border-radius: 15px;
+    border-style: solid;
+    background-color:peru;
+    margin-left:2.5%;
+    margin-top:5px;
+    width:95%;
+    height:75px;
+    text-align:right;
+    font:800 300% Impact,Haettenschweiler,'Arial Narrow Bold',sans-serif;
+    color:antiquewhite;
+}
