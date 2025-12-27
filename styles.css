@@ -79,7 +79,7 @@ body {
 .specialButton {
     width: 30%;
     aspect-ratio: 3/1;
-    border-color: darksalmon;
-    background-color: coral;
-    color: rgb(255, 220, 211);
+    border-color: indianred;
+    background-color: rgb(181, 56, 56);
+    color: rgb(255, 202, 202);
 }

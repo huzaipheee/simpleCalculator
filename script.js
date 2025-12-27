@@ -16,7 +16,10 @@ function concatNumber(num, displayID) {
     } else if (num === "AC") {
         display.value = ""
     } else if (num === "=") {
-        display.value = eval(((display.value).replaceAll('^', '**')).replaceAll('x', '*'))
+        answer = eval(((display.value).replaceAll('^', '**')).replaceAll('x', '*'))
+        if (String(answer) != "undefined") {
+            display.value = answer
+        }
     } else {
         display.value += num
     }
