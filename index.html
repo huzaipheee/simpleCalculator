@@ -10,8 +10,43 @@
     <div id="title">Simple Calculator - Safwan Huzaifee</div>
     <div id="calculatorInterface">
       <form>
-        <input type="text" id="mainBox" />
+        <input type="text" id="mainBox" name="display"/>
       </form>
+      <br />
+      <div>
+        <div>
+          <form>
+            <input type="button" id="button-7" value="7" class="numberButton" onclick="concatNumber(7, 'mainBox')"/>
+            <input type="button" id="button-8" value="8" class="numberButton" onclick="concatNumber(8, 'mainBox')"/>
+            <input type="button" id="button-9" value="9" class="numberButton" onclick="concatNumber(9, 'mainBox')"/>
+            <input type="button" id="button-0" value="0" class="numberButton" onclick="concatNumber(0, 'mainBox')"/>
+            <input type="button" id="button*" value="x" class="operatorButton" onclick="concatNumber('x', 'mainBox')"/>
+            <input type="button" id="buttonDEL" value="DEL" class="specialButton" onclick="concatNumber('DEL', 'mainBox')"/>
+          </form>
+        </div>
+        <br />
+        <div>
+          <form>
+            <input type="button" id="button-4" value="4" class="numberButton" onclick="concatNumber(4, 'mainBox')"/>
+            <input type="button" id="button-5" value="5" class="numberButton" onclick="concatNumber(5, 'mainBox')"/>
+            <input type="button" id="button-6" value="6" class="numberButton" onclick="concatNumber(6, 'mainBox')"/>
+            <input type="button" id="button+" value="+" class="operatorButton" onclick="concatNumber('+', 'mainBox')"/>
+            <input type="button" id="button/" value="/" class="operatorButton" onclick="concatNumber('/', 'mainBox')"/>
+            <input type="button" id="buttonAC" value="AC" class="specialButton" onclick="concatNumber('AC', 'mainBox')"/>
+          </form>
+        </div>
+        <br />
+        <div>
+          <form>
+            <input type="button" id="button-1" value="1" class="numberButton" onclick="concatNumber(1, 'mainBox')"/>
+            <input type="button" id="button-2" value="2" class="numberButton" onclick="concatNumber(2, 'mainBox')"/>
+            <input type="button" id="button-3" value="3" class="numberButton" onclick="concatNumber(3, 'mainBox')"/>
+            <input type="button" id="button-" value="-" class="operatorButton" onclick="concatNumber('-', 'mainBox')"/>
+            <input type="button" id="button^" value="^" class="operatorButton" onclick="concatNumber('^', 'mainBox')"/>
+            <input type="button" id="button=" value="=" class="specialButton" onclick="concatNumber('=', 'mainBox')"/>
+          </form>
+        </div>
+      </div>
     </div>
   </body>
 </html>
